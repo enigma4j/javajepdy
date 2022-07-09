@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        {#for team in game.teams}
+        <div class="col">
+            <div class="card h-100">
+
+                <div class="card-body" style="background:red;">
+                    <h5 class="card-title headline">{team.points}</h5>
+                    <p class="card-text display-6 text-center">{team.name}</p>
+                </div>
+            </div>
+        </div>
+        {/for}
+    </div>
+</div>
